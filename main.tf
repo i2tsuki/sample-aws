@@ -25,12 +25,3 @@ resource "aws_instance" "app_server" {
     Project = "Handson"
   }
 }
-
-module "rds-i2tsuki" {
-  source  = "app.terraform.io/MIXI/rds-i2tsuki/aws"
-  version = "1.0.0"
-  # insert required variables here
-  db_name = "main"
-  db_username = "root"
-  db_password = "toor"
-}
