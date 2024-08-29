@@ -20,5 +20,6 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "Handson_i2tsuki"
     TED = "20240829_Handson"
+    Role = "Handson Primary Server"
   }
 }
