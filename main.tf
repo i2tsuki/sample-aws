@@ -21,5 +21,7 @@ resource "aws_instance" "app_server" {
     Name = "Handson_i2tsuki"
     TED = "20240829_Handson"
     Role = "Handson Primary Server"
+    Environment = "Handson"
+    Project = "Handson"
   }
 }
